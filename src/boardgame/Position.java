@@ -23,6 +23,11 @@ public class Position {
 		return column;
 	}
 	
+	public void setValues(int row, int column) {
+		this.row = row;
+		this.column = column;
+	}
+	
 	
 	// Método Construtor
 	public Position(int row, int column) {
