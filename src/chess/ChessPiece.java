@@ -11,7 +11,11 @@ public abstract class ChessPiece extends Piece {
 	// Método Getter e Setter
 	public Color getColor() {
 		return color;
-	}	
+	}
+	
+	public ChessPosition getChessPosition() {
+		return ChessPosition.fromPosition(position); 
+	}
 	
 	// Método construtor
 	public ChessPiece(Board board, Color color) {
